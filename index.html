@@ -1,48 +1,103 @@
-<main>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Servicios de sastrería profesional - Trajes a medida, arreglos y ropa de boda personalizados">
+  <title>Sastrería Profesional - Trajes a Medida</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- HEADER & NAVIGATION -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#" class="logo">Sastrería Profesional</a>
+        <ul class="nav-menu">
+          <li><a href="#about">Acerca de</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#gallery">Galería</a></li>
+          <li><a href="#contact" class="nav-cta">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-  <!-- ABOUT -->
-  <section class="about">
-    <h2>Hecho con Precisión</h2>
-    <p>
-      En Sitio Web de Sastre, combinamos la artesanía tradicional con la elegancia moderna
-      para entregar prendas perfectamente ajustadas diseñadas de forma única para ti.
-    </p>
-  </section>
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <h1>Trajes a Medida Perfectos</h1>
+        <p>Combinamos artesanía tradicional con elegancia moderna</p>
+        <a href="#contact" class="btn btn-primary">Reserva Tu Consulta</a>
+      </div>
+    </section>
 
-  <!-- SERVICES -->
-  <section class="services">
-    <h2>Nuestros Servicios</h2>
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+      <div class="container">
+        <h2>Hecho con Precisión</h2>
+        <p class="about-text">
+          En nuestra sastrería, combinamos la artesanía tradicional con la elegancia moderna
+          para entregar prendas perfectamente ajustadas diseñadas de forma única para ti.
+          Cada detalle importa, cada puntada cuenta.
+        </p>
+      </div>
+    </section>
 
-    <div class="service-card">
-      <h3>Trajes a Medida</h3>
-      <p>Diseños personalizados con precisión artesanal.</p>
-    </div>
+    <!-- SERVICES SECTION -->
+    <section class="services" id="services">
+      <div class="container">
+        <h2>Nuestros Servicios</h2>
+        <div class="service-grid">
+          <div class="service-card">
+            <div class="service-icon">👔</div>
+            <h3>Trajes a Medida</h3>
+            <p>Diseños personalizados con precisión artesanal. Elige tus propios materiales y colores.</p>
+          </div>
 
-    <div class="service-card">
-      <h3>Arreglos Profesionales</h3>
-      <p>Ajustes expertos para tu ropa.</p>
-    </div>
+          <div class="service-card">
+            <div class="service-icon">✂️</div>
+            <h3>Arreglos Profesionales</h3>
+            <p>Ajustes expertos para tu ropa. Cualquier prenda, cualquier ajuste necesario.</p>
+          </div>
 
-    <div class="service-card">
-      <h3>Atuendo de Boda</h3>
-      <p>Looks elegantes para tu día especial.</p>
-    </div>
-  </section>
+          <div class="service-card">
+            <div class="service-icon">💍</div>
+            <h3>Atuendo de Boda</h3>
+            <p>Looks elegantes para tu día especial. Crea el conjunto perfecto para tu evento.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <!-- GALLERY -->
-  <section class="gallery">
-    <h2>Nuestro Oficio</h2>
-    <div class="gallery-grid">
-      <img src="assets/images/gallery1.png" alt="Traje a medida personalizado" loading="lazy">
-      <img src="assets/images/gallery2.png" alt="Servicios de costura y arreglos" loading="lazy">
-      <img src="assets/images/gallery3.png" alt="Ajustes profesionales de prendas" loading="lazy">
-    </div>
-  </section>
+    <!-- GALLERY SECTION -->
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <h2>Nuestro Oficio</h2>
+        <div class="gallery-grid">
+          <img src="assets/images/gallery1.png" alt="Traje a medida personalizado" loading="lazy">
+          <img src="assets/images/gallery2.png" alt="Servicios de costura y arreglos" loading="lazy">
+          <img src="assets/images/gallery3.png" alt="Ajustes profesionales de prendas" loading="lazy">
+        </div>
+      </div>
+    </section>
 
-  <!-- CTA -->
-  <section class="cta-section" id="contact">
-    <h2>¿Listo para el Ajuste Perfecto?</h2>
-    <a href="#" class="btn">Reserva Tu Consulta Hoy</a>
-  </section>
+    <!-- CTA SECTION -->
+    <section class="cta-section" id="contact">
+      <div class="container">
+        <h2>¿Listo para el Ajuste Perfecto?</h2>
+        <p>Contáctanos hoy para agendar tu consulta personalizada</p>
+        <a href="mailto:info@sastreria.com" class="btn btn-light">Reserva Tu Consulta</a>
+      </div>
+    </section>
+  </main>
 
-</main>
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2026 Sastrería Profesional. Todos los derechos reservados.</p>
+    <p>Diseñado con precisión y elegancia</p>
+  </footer>
+</body>
+</html>
