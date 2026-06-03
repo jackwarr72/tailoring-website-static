@@ -1,89 +1,65 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- ✅ Primary SEO -->
-  <title>Sitio Web de Sastre | Trajes a Medida y Arreglos Profesionales</title>
-
-  <meta name="description" content="Sitio Web de Sastre ofrece trajes a medida, arreglos profesionales y atuendos de boda. Precisión, artesanía y estilo. Reserva tu consulta hoy.">
-
-  <meta name="keywords" content="sastre, trajes a medida, arreglos de ropa, sastrería profesional, atuendo de boda">
-
-  <meta name="author" content="Sitio Web de Sastre">
-
-  <!-- ✅ Canonical URL -->
-  <link rel="canonical" href="https://tailoring-website-static.pages.dev/">
-
-  <!-- ✅ Open Graph (Facebook, LinkedIn) -->
-  <meta property="og:title" content="Sitio Web de Sastre | Precisión y Estilo">
-  <meta property="og:description" content="Trajes a medida y arreglos profesionales con artesanía de calidad.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://tailoring-website-static.pages.dev/">
-  <meta property="og:image" content="https://tailoring-website-static.pages.dev/assets/images/hero-background.jpg">
-
-  <!-- ✅ Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Sitio Web de Sastre">
-  <meta name="twitter:description" content="Trajes a medida y arreglos profesionales con precisión artesanal.">
-  <meta name="twitter:image" content="https://tailoring-website-static.pages.dev/assets/images/hero-background.jpg">
-
-  <!-- ✅ Favicon -->
-  <link rel="icon" href="favicon.ico">
-
-  <!-- ✅ Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-
-  <!-- ✅ Styles -->
-  <link rel="stylesheet" href="style.css">
-
-  <!-- ✅ Structured Data (Schema.org) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Sitio Web de Sastre",
-    "image": "https://tailoring-website-static.pages.dev/assets/images/hero-background.jpg",
-    "url": "https://tailoring-website-static.pages.dev/",
-    "description": "Trajes a medida, arreglos profesionales y atuendos de boda con precisión y artesanía.",
-    "serviceType": [
-      "Trajes a medida",
-      "Arreglos de ropa",
-      "Atuendo de boda"
-    ]
-  }
-  </script>
-</head>
 <body>
-  <!-- Hero Section -->
-  <header class="hero">
+
+  <!-- HERO -->
+  <section class="hero">
     <h1>Sitio Web de Sastre</h1>
     <p>Trajes a Medida y Arreglos Profesionales</p>
-  </header>
+    <a href="#contact" class="btn">Reservar una Consulta</a>
+  </section>
 
-  <!-- Main Content -->
-  <main>
-    <section class="services">
+  <!-- ABOUT -->
+  <section class="about">
+    <div class="container">
+      <h2>Hecho con Precisión</h2>
+      <p>
+        En Sitio Web de Sastre, combinamos la artesanía tradicional con la elegancia moderna
+        para entregar prendas perfectamente ajustadas diseñadas de forma única para ti.
+      </p>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services">
+    <div class="container">
       <h2>Nuestros Servicios</h2>
-      <div class="service-card">
+
+      <div class="service">
         <h3>Trajes a Medida</h3>
         <p>Diseños personalizados con precisión artesanal.</p>
       </div>
-      <div class="service-card">
+
+      <div class="service">
         <h3>Arreglos Profesionales</h3>
         <p>Ajustes expertos para tu ropa.</p>
       </div>
-      <div class="service-card">
+
+      <div class="service">
         <h3>Atuendo de Boda</h3>
         <p>Looks elegantes para tu día especial.</p>
       </div>
-    </section>
-  </main>
+    </div>
+  </section>
 
-  <!-- Footer -->
+  <!-- GALLERY -->
+  <section class="gallery">
+    <h2>Nuestro Oficio</h2>
+    <div class="gallery-grid">
+      <img src="assets/images/gallery1.png" alt="Traje a medida personalizado" loading="lazy">
+      <img src="assets/images/gallery2.png" alt="Servicios de costura y arreglos" loading="lazy">
+      <img src="assets/images/gallery3.png" alt="Ajustes profesionales de prendas" loading="lazy">
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section" id="contact">
+    <h2>¿Listo para el Ajuste Perfecto?</h2>
+    <a href="#" class="btn">Reserva Tu Consulta Hoy</a>
+  </section>
+
+  <!-- FOOTER -->
   <footer>
-    <p>&copy; 2026 Sitio Web de Sastre. Todos los derechos reservados.</p>
+    <p>© 2026 Sitio Web de Sastre. Todos los derechos reservados.</p>
   </footer>
+
 </body>
 </html>
