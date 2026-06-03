@@ -408,3 +408,18 @@ footer p:first-child {
     font-size: 14px;
   }
 }
+/* LOCATION SECTION */
+.location {
+  padding: 80px 20px;
+  text-align: center;
+  background: #f8f8f8;
+}
+
+.location h2 {
+  margin-bottom: 25px;
+}
+
+.location p {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
