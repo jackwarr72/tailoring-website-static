@@ -91,7 +91,11 @@ p {
   color: var(--primary-color);
   text-decoration: none;
 }
-
+.logo img {
+  height: 60px;
+  width: auto;
+  display: block;
+}
 .nav-menu {
   display: flex;
   list-style: none;
