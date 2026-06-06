@@ -31,22 +31,15 @@ body {
 
 /* ===== TYPOGRAPHY ===== */
 h1 {
-  font-size: 48px;
-  font-weight: 700;
-  margin-bottom: 16px;
+  font-size: clamp(2rem, 5vw, 3.5rem);
 }
 
 h2 {
-  font-size: 36px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  color: var(--text-dark);
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
 }
 
 h3 {
-  font-size: 22px;
-  font-weight: 600;
-  margin-bottom: 12px;
+  font-size: clamp(1.25rem, 2vw, 1.5rem);
 }
 
 p {
@@ -153,12 +146,11 @@ p {
 }
 
 .btn-light {
-  background-color: var(--primary-color);
-  color: white;
+  background-color: var(--light-bg);
+  color: var(--text-dark);
 }
-
 .btn-light:hover {
-  background-color: var(--primary-dark);
+  background-color: var(--pale-bg);
 }
 
 /* ===== HERO SECTION ===== */
